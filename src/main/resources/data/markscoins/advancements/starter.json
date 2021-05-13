@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "markscoins:coingold"
+    },
+    "title": {
+      "translate": "advancements.starter.title"
+    },
+    "description": {
+      "translate": "advancements.starter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "starter": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "markscoins:coinloot"
+    ],
+    "recipes": [
+      "markscoins:woodstone",
+      "markscoins:stonecopper"
+    ]
+  },
+  "parent": "minecraft:story/root"
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "markscoins:coinnetherite"
+    },
+    "title": {
+      "translate": "advancements.piggybank.title"
+    },
+    "description": {
+      "translate": "advancements.piggybank.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "piggybank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "markscoins:coinnetherite",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 8,
+    "recipes": [
+      "markscoins:deleted_mod_element"
+    ]
+  },
+  "parent": "minecraft:story/root"
+}

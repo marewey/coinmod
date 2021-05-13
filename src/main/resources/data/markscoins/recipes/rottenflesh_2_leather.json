@@ -1,0 +1,12 @@
+{
+  "group": "markscoins",
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": {
+    "item": "minecraft:leather"
+  }
+}

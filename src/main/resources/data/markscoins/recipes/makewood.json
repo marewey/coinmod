@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:oak_log"
+  },
+  "addition": {
+    "item": "minecraft:flower_pot"
+  },
+  "result": {
+    "item": "markscoins:coinwood"
+  }
+}

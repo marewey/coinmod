@@ -1,0 +1,30 @@
+{
+  "_fv": 18,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Starting the Economy",
+    "achievementDescription": "Get your first coins",
+    "achievementIcon": {
+      "value": "CUSTOM:Coingold"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [
+      "Coinloot"
+    ],
+    "rewardRecipes": [
+      "Woodstone",
+      "Stonecopper"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "story/root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"tick\" x=\"39\" y=\"69\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

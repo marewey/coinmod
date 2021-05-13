@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "markscoins:coinwood",
+    "markscoins:coinstone",
+    "markscoins:coincopper",
+    "markscoins:coiniron",
+    "markscoins:coingold",
+    "markscoins:coinamethyst",
+    "markscoins:coinsapphire",
+    "markscoins:coinruby",
+    "markscoins:coindiamond",
+    "markscoins:coinemerald",
+    "markscoins:coinnetherite",
+    "markscoins:coinplatinum"
+  ]
+}

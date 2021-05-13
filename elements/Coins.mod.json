@@ -1,0 +1,50 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Coinwood"
+      },
+      {
+        "value": "CUSTOM:Coinstone"
+      },
+      {
+        "value": "CUSTOM:Coincopper"
+      },
+      {
+        "value": "CUSTOM:Coiniron"
+      },
+      {
+        "value": "CUSTOM:Coingold"
+      },
+      {
+        "value": "CUSTOM:Coinamethyst"
+      },
+      {
+        "value": "CUSTOM:Coinsapphire"
+      },
+      {
+        "value": "CUSTOM:Coinruby"
+      },
+      {
+        "value": "CUSTOM:Coindiamond"
+      },
+      {
+        "value": "CUSTOM:Coinemerald"
+      },
+      {
+        "value": "CUSTOM:Coinnetherite"
+      },
+      {
+        "value": "CUSTOM:Coinplatinum"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "coins",
+    "namespace": "forge"
+  }
+}

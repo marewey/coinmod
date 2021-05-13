@@ -1,0 +1,13 @@
+{
+  "group": "markscoins",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "markscoins:coinstone"
+    }
+  ],
+  "result": {
+    "item": "markscoins:coinwood",
+    "count": 4
+  }
+}

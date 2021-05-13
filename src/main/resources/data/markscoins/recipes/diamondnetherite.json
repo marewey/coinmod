@@ -1,0 +1,22 @@
+{
+  "group": "markscoins",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "markscoins:coindiamond"
+    },
+    {
+      "item": "markscoins:coindiamond"
+    },
+    {
+      "item": "markscoins:coindiamond"
+    },
+    {
+      "item": "markscoins:coindiamond"
+    }
+  ],
+  "result": {
+    "item": "markscoins:coinnetherite",
+    "count": 1
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Coinwood",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coinwood",
+      "path": "~/items"
+    },
+    {
+      "name": "Coinstone",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coinstone",
+      "path": "~/items"
+    },
+    {
+      "name": "Woodstone",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodstone",
+      "path": "~/recipes/up"
+    },
+    {
+      "name": "Coincopper",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coincopper",
+      "path": "~/items"
+    },
+    {
+      "name": "Coiniron",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coiniron",
+      "path": "~/items"
+    },
+    {
+      "name": "Coingold",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coingold",
+      "path": "~/items"
+    },
+    {
+      "name": "Coinamethyst",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coinamethyst",
+      "path": "~/items"
+    },
+    {
+      "name": "Coinsapphire",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coinsapphire",
+      "path": "~/items"
+    },
+    {
+      "name": "Coinruby",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coinruby",
+      "path": "~/items"
+    },
+    {
+      "name": "Coindiamond",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coindiamond",
+      "path": "~/items"
+    },
+    {
+      "name": "Coinemerald",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coinemerald",
+      "path": "~/items"
+    },
+    {
+      "name": "Stonecopper",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonecopper",
+      "path": "~/recipes/up"
+    },
+    {
+      "name": "Copperiron",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperiron",
+      "path": "~/recipes/up"
+    },
+    {
+      "name": "Irongold",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irongold",
+      "path": "~/recipes/up"
+    },
+    {
+      "name": "Diamondruby",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondruby",
+      "path": "~/recipes/down"
+    },
+    {
+      "name": "Sapphireamethyst",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphireamethyst",
+      "path": "~/recipes/down"
+    },
+    {
+      "name": "Goldiron",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldiron",
+      "path": "~/recipes/down"
+    },
+    {
+      "name": "Ironcopper",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironcopper",
+      "path": "~/recipes/down"
+    },
+    {
+      "name": "Copperstone",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperstone",
+      "path": "~/recipes/down"
+    },
+    {
+      "name": "Stonewood",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stonewood",
+      "path": "~/recipes/down"
+    },
+    {
+      "name": "Amethystsapphire",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethystsapphire",
+      "path": "~/recipes/up"
+    },
+    {
+      "name": "Rubydiamond",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubydiamond",
+      "path": "~/recipes/up"
+    },
+    {
+      "name": "Coinnetherite",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coinnetherite",
+      "path": "~/items"
+    },
+    {
+      "name": "Makestone",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "makestone",
+      "path": "~/recipes/center"
+    },
+    {
+      "name": "Makestone2",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "makestone_2",
+      "path": "~/recipes/center"
+    },
+    {
+      "name": "Makeiron",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "makeiron",
+      "path": "~/recipes/center"
+    },
+    {
+      "name": "Makebronze",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "makebronze",
+      "path": "~/recipes/center"
+    },
+    {
+      "name": "Makewood1",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "makewood_1",
+      "path": "~/recipes/center"
+    },
+    {
+      "name": "Makewood2",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "makewood_2",
+      "path": "~/recipes/center"
+    },
+    {
+      "name": "Rottenflesh2Leather",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rottenflesh_2_leather",
+      "path": "~/recipes/center"
+    },
+    {
+      "name": "Coinloot",
+      "type": "loottable",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coinloot",
+      "path": "~/lootTable"
+    },
+    {
+      "name": "Piggybank",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piggybank",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Makewood",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "makewood",
+      "path": "~/recipes/center"
+    },
+    {
+      "name": "Starter",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "starter",
+      "path": "~/advancments"
+    },
+    {
+      "name": "Coinplatinum",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coinplatinum",
+      "path": "~/items"
+    },
+    {
+      "name": "Endcity",
+      "type": "loottable",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "endcity",
+      "path": "~/lootTable"
+    },
+    {
+      "name": "BankGUI",
+      "type": "gui",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bank_gui",
+      "path": "~/procedures"
+    },
+    {
+      "name": "OpenBank",
+      "type": "keybind",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_bank",
+      "path": "~/procedures"
+    },
+    {
+      "name": "Coins",
+      "type": "tag",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coins",
+      "path": "~/items"
+    },
+    {
+      "name": "BankInputCalc",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bank_input_calc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "BankOutputCalc",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bank_output_calc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "BankTransfer",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bank_transfer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "BankOpenGUI",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bank_open_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "Goldplatinum",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "goldplatinum",
+      "path": "~/recipes/up"
+    },
+    {
+      "name": "Platinumamethyst",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinumamethyst",
+      "path": "~/recipes/up"
+    },
+    {
+      "name": "Sapphireemerald",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphireemerald",
+      "path": "~/recipes/up"
+    },
+    {
+      "name": "Emeraldruby",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emeraldruby",
+      "path": "~/recipes/up"
+    },
+    {
+      "name": "Diamondnetherite",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamondnetherite",
+      "path": "~/recipes/up"
+    },
+    {
+      "name": "Netheritediamond",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netheritediamond",
+      "path": "~/recipes/down"
+    },
+    {
+      "name": "Rubyemerald",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubyemerald",
+      "path": "~/recipes/down"
+    },
+    {
+      "name": "Emeraldsapphire",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emeraldsapphire",
+      "path": "~/recipes/down"
+    },
+    {
+      "name": "Amethystplatinum",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amethystplatinum",
+      "path": "~/recipes/down"
+    },
+    {
+      "name": "Platinumgold",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinumgold",
+      "path": "~/recipes/down"
+    },
+    {
+      "name": "Mineshaft",
+      "type": "loottable",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineshaft",
+      "path": "~/lootTable"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "money",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "transfer",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "display",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "money_disp",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "0 PC"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.markscustom.coinnetherite": "Netherite Coin",
+      "item.markscustom.coinsapphire": "Sapphire Coin",
+      "key.markscustom.open_bank": "Open Bank",
+      "item.markscustom.coinplatinum": "Platinum Coin",
+      "key.markscoins.open_bank": "Open Bank",
+      "item.markscoins.coinnetherite": "Netherite Coin",
+      "item.markscustom.coinwood": "Wood Coin",
+      "advancements.piggybank.descr": "Save up till you get a netherite coin",
+      "item.markscoins.coinamethyst": "Amethyst Coin",
+      "item.markscustom.coindiamond": "Diamond Coin",
+      "item.markscustom.coingold": "Gold Coin",
+      "item.markscoins.coinsapphire": "Sapphire Coin",
+      "advancements.piggybank.title": "Piggy Bank",
+      "advancements.starter.descr": "Get your first coins",
+      "item.markscustom.coinstone": "Stone Coin",
+      "item.markscustom.coincopper": "Copper Coin",
+      "item.markscustom.coinemerald": "Emerald Coin",
+      "item.markscoins.coiniron": "Iron Coin",
+      "item.markscustom.coinamethyst": "Amethyst Coin",
+      "item.markscoins.coingold": "Gold Coin",
+      "item.markscustom.coinruby": "Ruby Coin",
+      "advancements.starter.title": "Starting the Economy",
+      "item.markscoins.coinruby": "Ruby Coin",
+      "item.markscoins.coincopper": "Copper Coin",
+      "item.markscoins.coinplatinum": "Platinum Coin",
+      "item.markscoins.coinemerald": "Emerald Coin",
+      "item.markscoins.coinstone": "Stone Coin",
+      "item.markscoins.coinwood": "Wood Coin",
+      "item.markscoins.coindiamond": "Diamond Coin",
+      "item.markscustom.coiniron": "Iron Coin"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "advancments",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "lootTable",
+        "children": []
+      },
+      {
+        "name": "procedures",
+        "children": []
+      },
+      {
+        "name": "recipes",
+        "children": [
+          {
+            "name": "up",
+            "children": []
+          },
+          {
+            "name": "down",
+            "children": []
+          },
+          {
+            "name": "center",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "markscoins",
+    "modName": "Mark\u0027s Coins",
+    "version": "1.0.0",
+    "author": "marewey, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "coin_diamond",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.rewey.markscoins",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

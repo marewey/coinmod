@@ -1,0 +1,125 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Balance",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Balance",
+          "x": 131,
+          "y": 42
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "BankInputCalc"
+          },
+          "name": "Slot #0",
+          "x": 149,
+          "y": 89
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "BankOutputCalc"
+          },
+          "name": "Slot #1",
+          "x": 257,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:money_disp>",
+          "color": {
+            "value": -16777215,
+            "falpha": 0.0
+          },
+          "name": "<VAR:money_disp>",
+          "x": 130,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cashout.png",
+          "use1Xscale": true,
+          "name": "cashout.png",
+          "x": 196,
+          "y": 77
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Take",
+          "onClick": {
+            "name": "BankTransfer"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Take",
+          "x": 251,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Deposit",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Deposit",
+          "x": 140,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Withdraw",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Withdraw",
+          "x": 245,
+          "y": 78
+        }
+      }
+    ],
+    "onTick": {
+      "name": "BankOutputCalc"
+    }
+  }
+}

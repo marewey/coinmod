@@ -1,0 +1,9 @@
+{
+  "group": "markscoins",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "minecraft:slabs"
+  },
+  "result": "markscoins:coinstone"
+}

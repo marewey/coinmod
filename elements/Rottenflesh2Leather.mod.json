@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "xpReward": 1.0,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "Items.ROTTEN_FLESH"
+    },
+    "campfireCookingReturnStack": {
+      "value": "Items.LEATHER"
+    },
+    "name": "rottenflesh_2_leather",
+    "namespace": "mod"
+  }
+}

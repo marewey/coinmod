@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Coinstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Coinstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Coinstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Coinstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Coincopper"
+    },
+    "name": "stonecopper",
+    "namespace": "mod"
+  }
+}

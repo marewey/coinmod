@@ -1,0 +1,22 @@
+{
+  "group": "markscoins",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "markscoins:coinruby"
+    },
+    {
+      "item": "markscoins:coinruby"
+    },
+    {
+      "item": "markscoins:coinruby"
+    },
+    {
+      "item": "markscoins:coinruby"
+    }
+  ],
+  "result": {
+    "item": "markscoins:coindiamond",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "markscoins",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "markscoins:coinruby"
+    }
+  ],
+  "result": {
+    "item": "markscoins:coinemerald",
+    "count": 4
+  }
+}

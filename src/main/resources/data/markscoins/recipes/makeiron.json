@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_block"
+  },
+  "addition": {
+    "item": "minecraft:flower_pot"
+  },
+  "result": {
+    "item": "markscoins:coiniron"
+  }
+}

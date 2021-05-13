@@ -1,0 +1,22 @@
+{
+  "group": "markscoins",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "markscoins:coinsapphire"
+    },
+    {
+      "item": "markscoins:coinsapphire"
+    },
+    {
+      "item": "markscoins:coinsapphire"
+    },
+    {
+      "item": "markscoins:coinsapphire"
+    }
+  ],
+  "result": {
+    "item": "markscoins:coinemerald",
+    "count": 1
+  }
+}
