@@ -645,8 +645,6 @@ public class BankInputCalcProcedure extends MarkscoinsModElements.ModElement {
 							}
 						}
 					}
-				} else {
-					System.out.println("Invalid Input");
 				}
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}

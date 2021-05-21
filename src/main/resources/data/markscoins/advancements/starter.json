@@ -16,7 +16,18 @@
   },
   "criteria": {
     "starter": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:air",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {

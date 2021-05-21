@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "loottable",
   "definition": {
-    "type": "Chest",
+    "type": "Generic",
     "pools": [
       {
         "minrolls": 1,

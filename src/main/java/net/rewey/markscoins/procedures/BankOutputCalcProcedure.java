@@ -521,11 +521,9 @@ public class BankOutputCalcProcedure extends MarkscoinsModElements.ModElement {
 					}
 				}
 			}
-			System.out.println((("Display: ") + "" + (((entity.getCapability(MarkscoinsModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new MarkscoinsModVariables.PlayerVariables())).display))));
 		}
 		{
-			String _setval = (String) (new java.text.DecimalFormat("#,###,###.### PC")
+			String _setval = (String) (new java.text.DecimalFormat("#,###,###,### PC")
 					.format(((entity.getCapability(MarkscoinsModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new MarkscoinsModVariables.PlayerVariables())).money)));
 			entity.getCapability(MarkscoinsModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {

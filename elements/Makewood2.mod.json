@@ -9,13 +9,13 @@
     "group": "",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "Items.DYE#15"
+      "value": "Items.LEATHER"
     },
     "smithingInputAdditionStack": {
-      "value": "Items.FLOWER_POT"
+      "value": "CUSTOM:Coinframe"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:Coinwood"
+      "value": "CUSTOM:Coincopper"
     },
     "name": "makewood_2",
     "namespace": "mod"

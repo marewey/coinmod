@@ -1,0 +1,124 @@
+{
+  "_fv": 18,
+  "_type": "block",
+  "definition": {
+    "texture": "lootpile",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 12,
+    "customModelName": "Cross model",
+    "rotationMode": 0,
+    "emissiveRendering": true,
+    "displayFluidOverlay": true,
+    "itemTexture": "",
+    "particleTexture": "lootpile",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 5.0,
+        "my": 6.0,
+        "mz": 5.0,
+        "Mx": 11.0,
+        "My": 13.0,
+        "Mz": 11.0,
+        "subtract": false
+      }
+    ],
+    "name": "Coin Pile",
+    "specialInfo": [],
+    "hardness": 0.05,
+    "resistance": 0.0,
+    "hasGravity": true,
+    "isWaterloggable": false,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "FIRE"
+    },
+    "tickRate": 20,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XYZ",
+    "aiPathNodeType": "DANGER_OTHER",
+    "flammability": 35,
+    "fireSpreadSpeed": 1,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 0.9,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": true,
+    "soundOnStep": {
+      "value": "CHAIN"
+    },
+    "luminance": 2,
+    "unbreakable": false,
+    "breakHarvestLevel": 0,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 1.2000000014901162,
+    "particleAmount": 3,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onEntityCollides": {
+      "name": "CoinPileEntityCollidesInTheBlock"
+    },
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.CAVE_AIR"
+      }
+    ],
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 1,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64,
+    "generateCondition": {
+      "name": "CoinPileAdditionalGenerationCondition"
+    }
+  }
+}

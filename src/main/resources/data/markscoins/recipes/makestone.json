@@ -1,9 +1,12 @@
 {
-  "group": "markscoins",
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "tag": "minecraft:slabs"
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "minecraft:stone_bricks"
   },
-  "result": "markscoins:coinstone"
+  "addition": {
+    "item": "markscoins:coinframe"
+  },
+  "result": {
+    "item": "markscoins:coinstone"
+  }
 }

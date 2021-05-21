@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "markscoins:block/coin_plant"
+    }
+  }
+}

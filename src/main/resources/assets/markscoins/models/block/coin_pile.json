@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "markscoins:blocks/lootpile",
+    "particle": "markscoins:blocks/lootpile"
+  }
+}

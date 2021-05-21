@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:bone_meal"
+    "item": "minecraft:leather"
   },
   "addition": {
-    "item": "minecraft:flower_pot"
+    "item": "markscoins:coinframe"
   },
   "result": {
-    "item": "markscoins:coinwood"
+    "item": "markscoins:coincopper"
   }
 }

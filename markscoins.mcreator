@@ -232,66 +232,6 @@
       "path": "~/items"
     },
     {
-      "name": "Makestone",
-      "type": "recipe",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "makestone",
-      "path": "~/recipes/center"
-    },
-    {
-      "name": "Makestone2",
-      "type": "recipe",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "makestone_2",
-      "path": "~/recipes/center"
-    },
-    {
-      "name": "Makeiron",
-      "type": "recipe",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "makeiron",
-      "path": "~/recipes/center"
-    },
-    {
-      "name": "Makebronze",
-      "type": "recipe",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "makebronze",
-      "path": "~/recipes/center"
-    },
-    {
-      "name": "Makewood1",
-      "type": "recipe",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "makewood_1",
-      "path": "~/recipes/center"
-    },
-    {
-      "name": "Makewood2",
-      "type": "recipe",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "makewood_2",
-      "path": "~/recipes/center"
-    },
-    {
       "name": "Rottenflesh2Leather",
       "type": "recipe",
       "sortid": 40,
@@ -350,16 +290,6 @@
       "ids": {},
       "registry_name": "coinplatinum",
       "path": "~/items"
-    },
-    {
-      "name": "Endcity",
-      "type": "loottable",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "endcity",
-      "path": "~/lootTable"
     },
     {
       "name": "BankGUI",
@@ -584,14 +514,163 @@
       "path": "~/recipes/down"
     },
     {
-      "name": "Mineshaft",
-      "type": "loottable",
+      "name": "CoinPile",
+      "type": "block",
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mineshaft",
+      "registry_name": "coin_pile",
+      "path": "~/items"
+    },
+    {
+      "name": "PileOCoin",
+      "type": "loottable",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pile_o_coin",
       "path": "~/lootTable"
+    },
+    {
+      "name": "CoinPileEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coin_pile_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CoinPileAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coin_pile_additional_generation_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CoinPlant",
+      "type": "plant",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coin_plant",
+      "path": "~/items"
+    },
+    {
+      "name": "PileOCoin2",
+      "type": "loottable",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pile_o_coin_2",
+      "path": "~/lootTable"
+    },
+    {
+      "name": "CoinPlantAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coin_plant_additional_generation_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": []
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "MakeCoinFrame",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "make_coin_frame",
+      "path": "~/recipes/center"
+    },
+    {
+      "name": "Coinframe",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coinframe",
+      "path": "~/items"
+    },
+    {
+      "name": "Makestone",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "makestone",
+      "path": "~/recipes/center"
+    },
+    {
+      "name": "Makewood2",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "makewood_2",
+      "path": "~/recipes/center"
     }
   ],
   "variable_elements": [
@@ -628,6 +707,7 @@
       "key.markscustom.open_bank": "Open Bank",
       "item.markscustom.coinplatinum": "Platinum Coin",
       "key.markscoins.open_bank": "Open Bank",
+      "item.markscoins.coinframe": "Coin Frame",
       "item.markscoins.coinnetherite": "Netherite Coin",
       "item.markscustom.coinwood": "Wood Coin",
       "advancements.piggybank.descr": "Save up till you get a netherite coin",
@@ -641,9 +721,11 @@
       "item.markscustom.coincopper": "Copper Coin",
       "item.markscustom.coinemerald": "Emerald Coin",
       "item.markscoins.coiniron": "Iron Coin",
+      "block.markscoins.coin_pile": "Coin Pile",
       "item.markscustom.coinamethyst": "Amethyst Coin",
       "item.markscoins.coingold": "Gold Coin",
       "item.markscustom.coinruby": "Ruby Coin",
+      "block.markscoins.coin_plant": "Coin Plant",
       "advancements.starter.title": "Starting the Economy",
       "item.markscoins.coinruby": "Ruby Coin",
       "item.markscoins.coincopper": "Copper Coin",

@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:chest",
+  "type": "minecraft:block",
   "pools": [
     {
       "rolls": {
@@ -13,22 +13,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "markscoins:coinamethyst",
-          "weight": 1,
+          "name": "markscoins:coinwood",
+          "weight": 9,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 4
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "markscoins:coinsapphire",
-          "weight": 1,
+          "name": "markscoins:coinstone",
+          "weight": 4,
           "functions": [
             {
               "function": "set_count",
@@ -41,13 +41,27 @@
         },
         {
           "type": "minecraft:item",
-          "name": "markscoins:coinruby",
-          "weight": 1,
+          "name": "markscoins:coincopper",
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "markscoins:coiniron",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
                 "max": 1
               }
             }
