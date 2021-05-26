@@ -57,7 +57,7 @@
     "tickRate": 20,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "DIAMOND",
     "creativePickItem": {
       "value": ""
     },
@@ -81,7 +81,7 @@
     "particleToSpawn": {
       "value": "ENCHANTMENT_TABLE"
     },
-    "particleSpawningShape": "Spread",
+    "particleSpawningShape": "Tube",
     "particleSpawningRadious": 1.2000000014901162,
     "particleAmount": 3,
     "hasInventory": false,
@@ -107,7 +107,17 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "mushroom_fields"
+      },
+      {
+        "value": "mushroom_field_shore"
+      },
+      {
+        "value": "stone_beach"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.CAVE_AIR"

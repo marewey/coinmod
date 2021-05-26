@@ -671,6 +671,37 @@
       "ids": {},
       "registry_name": "makewood_2",
       "path": "~/recipes/center"
+    },
+    {
+      "name": "Bank",
+      "type": "particle",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bank"
+    },
+    {
+      "name": "CoinnetheriteRightClickedInAir",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coinnetherite_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
     }
   ],
   "variable_elements": [
@@ -697,6 +728,12 @@
       "type": "string",
       "scope": "player_persistent",
       "value": "0 PC"
+    },
+    {
+      "name": "isGUIOpen",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
     }
   ],
   "sound_elements": [],

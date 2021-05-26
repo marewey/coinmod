@@ -13,7 +13,7 @@ public class CoinPlantAdditionalGenerationConditionProcedure extends MarkscoinsM
 	public static boolean executeProcedure(Map<String, Object> dependencies) {
 		double rando = 0;
 		rando = (double) Math.random();
-		if ((0.0085 >= (rando))) {
+		if ((0.0075 >= (rando))) {
 			return (true);
 		}
 		return (false);

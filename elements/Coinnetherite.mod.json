@@ -30,6 +30,12 @@
     "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "CoinnetheriteRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "CoinnetheriteRightClickedInAir"
+    }
   }
 }

@@ -49,6 +49,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.Minecraft;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FallingBlock;
@@ -118,6 +119,11 @@ public class CoinPileBlock extends MarkscoinsModElements.ModElement {
 		}
 
 		@Override
+		public MaterialColor getMaterialColor() {
+			return MaterialColor.DIAMOND;
+		}
+
+		@Override
 		public PathNodeType getAiPathNodeType(BlockState state, IBlockReader world, BlockPos pos, MobEntity entity) {
 			return PathNodeType.DANGER_OTHER;
 		}
@@ -137,14 +143,10 @@ public class CoinPileBlock extends MarkscoinsModElements.ModElement {
 			int z = pos.getZ();
 			if (true)
 				for (int l = 0; l < 3; ++l) {
-					double d0 = (x + random.nextFloat());
-					double d1 = (y + random.nextFloat());
-					double d2 = (z + random.nextFloat());
-					int i1 = random.nextInt(2) * 2 - 1;
-					double d3 = (random.nextFloat() - 0.5D) * 1.2000000014901162D;
-					double d4 = (random.nextFloat() - 0.5D) * 1.2000000014901162D;
-					double d5 = (random.nextFloat() - 0.5D) * 1.2000000014901162D;
-					world.addParticle(ParticleTypes.ENCHANT, d0, d1, d2, d3, d4, d5);
+					double d0 = (x + 0.5) + (random.nextFloat() - 0.5) * 1.2000000014901162D;
+					double d1 = ((y + 0.7) + (random.nextFloat() - 0.5) * 1.2000000014901162D * 100) + 0.5;
+					double d2 = (z + 0.5) + (random.nextFloat() - 0.5) * 1.2000000014901162D;
+					world.addParticle(ParticleTypes.ENCHANT, d0, d1, d2, 0, 0, 0);
 				}
 		}
 
@@ -212,6 +214,15 @@ public class CoinPileBlock extends MarkscoinsModElements.ModElement {
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("mushroom_fields").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("mushroom_field_shore").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("stone_shore").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }

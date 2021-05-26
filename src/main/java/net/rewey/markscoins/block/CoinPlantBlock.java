@@ -45,6 +45,7 @@ import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FlowerBlock;
@@ -118,9 +119,9 @@ public class CoinPlantBlock extends MarkscoinsModElements.ModElement {
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
 			super(Effects.SATURATION, 0,
-					Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.CHAIN).hardnessAndResistance(0f, 0f)
-							.setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true).speedFactor(0.9f)
-							.setLightLevel(s -> 6));
+					Block.Properties.create(Material.PLANTS, MaterialColor.CYAN).doesNotBlockMovement().sound(SoundType.CHAIN)
+							.hardnessAndResistance(0f, 0f).setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true)
+							.speedFactor(0.9f).setLightLevel(s -> 6));
 			setRegistryName("coin_plant");
 		}
 

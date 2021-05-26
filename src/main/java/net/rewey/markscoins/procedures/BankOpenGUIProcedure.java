@@ -1,15 +1,19 @@
 package net.rewey.markscoins.procedures;
 
+import net.rewey.markscoins.particle.BankParticle;
 import net.rewey.markscoins.gui.BankGUIGui;
 import net.rewey.markscoins.MarkscoinsModElements;
 import net.rewey.markscoins.MarkscoinsMod;
 
 import net.minecraftforge.fml.network.NetworkHooks;
 
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.inventory.container.INamedContainerProvider;
 import net.minecraft.inventory.container.Container;
@@ -17,8 +21,11 @@ import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
 
 import java.util.Map;
+import java.util.Iterator;
 
 import io.netty.buffer.Unpooled;
 
@@ -74,6 +81,28 @@ public class BankOpenGUIProcedure extends MarkscoinsModElements.ModElement {
 						return new BankGUIGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
+			}
+		}
+		if (world instanceof ServerWorld) {
+			((ServerWorld) world).spawnParticle(BankParticle.particle, x, (y + 1.5), z, (int) 5, 3, 3, 3, 1);
+		}
+		if ((!(((entity instanceof ServerPlayerEntity) && (entity.world instanceof ServerWorld))
+				? ((ServerPlayerEntity) entity).getAdvancements()
+						.getProgress(((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
+								.getAdvancement(new ResourceLocation("markscoins:piggybank")))
+						.isDone()
+				: false))) {
+			if (entity instanceof ServerPlayerEntity) {
+				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
+						.getAdvancement(new ResourceLocation("markscoins:starter"));
+				AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
+				if (!_ap.isDone()) {
+					Iterator _iterator = _ap.getRemaningCriteria().iterator();
+					while (_iterator.hasNext()) {
+						String _criterion = (String) _iterator.next();
+						((ServerPlayerEntity) entity).getAdvancements().grantCriterion(_adv, _criterion);
+					}
+				}
 			}
 		}
 	}
