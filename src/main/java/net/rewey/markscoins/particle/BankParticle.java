@@ -46,7 +46,7 @@ public class BankParticle extends MarkscoinsModElements.ModElement {
 			this.spriteSet = spriteSet;
 			this.setSize((float) 0.2, (float) 0.2);
 			this.particleScale *= (float) 1.5;
-			this.maxAge = (int) Math.max(1, 8 + (this.rand.nextInt(2) - 1));
+			this.maxAge = 1;
 			this.particleGravity = (float) 0;
 			this.canCollide = true;
 			this.motionX = vx * 0;
@@ -56,8 +56,13 @@ public class BankParticle extends MarkscoinsModElements.ModElement {
 		}
 
 		@Override
+		public int getBrightnessForRender(float partialTick) {
+			return 15728880;
+		}
+
+		@Override
 		public IParticleRenderType getRenderType() {
-			return IParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
+			return IParticleRenderType.PARTICLE_SHEET_LIT;
 		}
 
 		@Override

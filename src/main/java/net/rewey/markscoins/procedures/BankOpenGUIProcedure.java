@@ -1,6 +1,5 @@
 package net.rewey.markscoins.procedures;
 
-import net.rewey.markscoins.particle.BankParticle;
 import net.rewey.markscoins.gui.BankGUIGui;
 import net.rewey.markscoins.MarkscoinsModElements;
 import net.rewey.markscoins.MarkscoinsMod;
@@ -82,9 +81,6 @@ public class BankOpenGUIProcedure extends MarkscoinsModElements.ModElement {
 					}
 				}, _bpos);
 			}
-		}
-		if (world instanceof ServerWorld) {
-			((ServerWorld) world).spawnParticle(BankParticle.particle, x, (y + 1.5), z, (int) 5, 3, 3, 3, 1);
 		}
 		if ((!(((entity instanceof ServerPlayerEntity) && (entity.world instanceof ServerWorld))
 				? ((ServerPlayerEntity) entity).getAdvancements()

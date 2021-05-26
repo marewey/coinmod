@@ -356,6 +356,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -679,7 +695,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bank"
+      "registry_name": "bank",
+      "path": "~/advancments"
     },
     {
       "name": "CoinnetheriteRightClickedInAir",
@@ -728,12 +745,6 @@
       "type": "string",
       "scope": "player_persistent",
       "value": "0 PC"
-    },
-    {
-      "name": "isGUIOpen",
-      "type": "logic",
-      "scope": "global",
-      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -749,9 +760,9 @@
       "item.markscustom.coinwood": "Wood Coin",
       "advancements.piggybank.descr": "Save up till you get a netherite coin",
       "item.markscoins.coinamethyst": "Amethyst Coin",
-      "item.markscustom.coindiamond": "Diamond Coin",
-      "item.markscustom.coingold": "Gold Coin",
       "item.markscoins.coinsapphire": "Sapphire Coin",
+      "item.markscustom.coingold": "Gold Coin",
+      "item.markscustom.coindiamond": "Diamond Coin",
       "advancements.piggybank.title": "Piggy Bank",
       "advancements.starter.descr": "Get your first coins",
       "item.markscustom.coinstone": "Stone Coin",

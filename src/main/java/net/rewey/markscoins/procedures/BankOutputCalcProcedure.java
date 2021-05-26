@@ -1,5 +1,6 @@
 package net.rewey.markscoins.procedures;
 
+import net.rewey.markscoins.particle.BankParticle;
 import net.rewey.markscoins.item.CoinwoodItem;
 import net.rewey.markscoins.item.CoinstoneItem;
 import net.rewey.markscoins.item.CoinsapphireItem;
@@ -16,6 +17,8 @@ import net.rewey.markscoins.MarkscoinsModVariables;
 import net.rewey.markscoins.MarkscoinsModElements;
 import net.rewey.markscoins.MarkscoinsMod;
 
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.IWorld;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.inventory.container.Container;
@@ -37,7 +40,31 @@ public class BankOutputCalcProcedure extends MarkscoinsModElements.ModElement {
 				MarkscoinsMod.LOGGER.warn("Failed to load dependency entity for procedure BankOutputCalc!");
 			return;
 		}
+		if (dependencies.get("x") == null) {
+			if (!dependencies.containsKey("x"))
+				MarkscoinsMod.LOGGER.warn("Failed to load dependency x for procedure BankOutputCalc!");
+			return;
+		}
+		if (dependencies.get("y") == null) {
+			if (!dependencies.containsKey("y"))
+				MarkscoinsMod.LOGGER.warn("Failed to load dependency y for procedure BankOutputCalc!");
+			return;
+		}
+		if (dependencies.get("z") == null) {
+			if (!dependencies.containsKey("z"))
+				MarkscoinsMod.LOGGER.warn("Failed to load dependency z for procedure BankOutputCalc!");
+			return;
+		}
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				MarkscoinsMod.LOGGER.warn("Failed to load dependency world for procedure BankOutputCalc!");
+			return;
+		}
 		Entity entity = (Entity) dependencies.get("entity");
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+		IWorld world = (IWorld) dependencies.get("world");
 		if ((0 < ((entity.getCapability(MarkscoinsModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new MarkscoinsModVariables.PlayerVariables())).money))) {
 			if ((((entity.getCapability(MarkscoinsModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -530,6 +557,9 @@ public class BankOutputCalcProcedure extends MarkscoinsModElements.ModElement {
 				capability.money_disp = _setval;
 				capability.syncPlayerVariables(entity);
 			});
+		}
+		if (world instanceof ServerWorld) {
+			((ServerWorld) world).spawnParticle(BankParticle.particle, x, (y + 2.25), z, (int) 1, 0, 0, 0, 1);
 		}
 	}
 }
